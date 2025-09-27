@@ -48,7 +48,23 @@ col1, col2 = st.columns([2,1])
 with col1:
     st.markdown('<p class="hero-title"><h1>Hi, I\'m Rachita 👋 </h1></p>', unsafe_allow_html=True)
     st.markdown('<p class="hero-subtitle"> <h3> Senior Consultant | Senior Analyst | Data Scientist </h3> </p>', unsafe_allow_html=True)
-    st.write("I turn data into actionable insights and build ML-driven solutions.")
+    # st.write("I turn data into actionable insights and build ML-driven solutions.")
+    st.write("""I'm a Lead BI & CX Analytics professional with 5+ years of experience building data-driven solutions for global enterprises, including 2 years onshore with British Gas UK, delivering strategic insights and automation through EXL Consulting.
+
+I specialize in Power BI, R, SQL, Python, Power Apps & Automate, Tableau, ML and have led 30+ BI dashboards, AI-lite solutions, and VOC/NPS reporting systems across customer care and commercial operations. My projects have enabled measurable improvements like:
+• 30% drop in complaints via diagnostic logic
+• 15% boost in agent efficiency (RPH)
+• 10-point lift in Net Promoter Score
+
+Notable initiatives include:
+🔹 Solver Buddy – a Power Apps-based recommendation engine for real-time issue diagnosis
+🔹 Guru Reporting – automated ticket + performance dashboards (Planner + SFTP + BI)
+🔹 VOC root cause analysis using text mining, clustering, and sentiment models
+
+I've directly partnered with UK stakeholders, managed analyst teams, and delivered BI strategies aligned to both business KPIs and customer insights. I'm now looking to drive larger impact in roles like:
+Lead BI Analyst | Analytics Consultant | VOC/CX Analytics Lead | Senior Business Analyst | Data Science Specialist (Applied)
+
+Let’s connect if you're building the next-gen analytics function — I bring the toolkit, mindset, and track record to lead it.""")
     st.markdown("""
     <a href="https://drive.google.com/file/d/1j7pTlNxrvCtIhVpo0y_M2o8l7fR94eBJ/view?usp=drive_link" target="_blank"><button style='margin:5px'>📄 Download Resume</button></a>
     <a href="mailto:rachita.harjai97@gmail.com"><button style='margin:5px'>✉️ Contact Me</button></a>
@@ -174,4 +190,5 @@ with col1:
 # with col3:
 
 #     st.markdown("[Email](mailto:your.email@example.com)")
+
 
