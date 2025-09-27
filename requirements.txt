@@ -10,4 +10,4 @@ xgboost
 shap
 joblib
 streamlit
-PIL
+Pillow   
