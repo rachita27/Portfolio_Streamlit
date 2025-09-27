@@ -48,8 +48,21 @@ col1, col2 = st.columns([2,1])
 with col1:
     st.markdown('<p class="hero-title"><h1>Hi, I\'m Rachita 👋 </h1></p>', unsafe_allow_html=True)
     st.markdown('<p class="hero-subtitle"> <h3> Senior Consultant | Senior Analyst | Data Scientist </h3> </p>', unsafe_allow_html=True)
-    # st.write("I turn data into actionable insights and build ML-driven solutions.")
-    st.write("""I'm a Lead BI & CX Analytics professional with 5+ years of experience building data-driven solutions for global enterprises, including 2 years onshore with British Gas UK, delivering strategic insights and automation through EXL Consulting.
+    st.write("I turn data into actionable insights and build ML-driven solutions.")
+    st.markdown("""
+    <a href="https://drive.google.com/file/d/1j7pTlNxrvCtIhVpo0y_M2o8l7fR94eBJ/view?usp=drive_link" target="_blank"><button style='margin:5px'>📄 Download Resume</button></a>
+    <a href="mailto:rachita.harjai97@gmail.com"><button style='margin:5px'>✉️ Contact Me</button></a>
+    """, unsafe_allow_html=True)
+with col2:
+    os.path.join(BASE_DIR, "Rachita_Img.jpg")
+    st.image(os.path.join(BASE_DIR, "Rachita_Img.jpg"), width=200)
+    # st.image("https://avatars.githubusercontent.com/u/9919?s=280&v=4", width=200)
+
+st.write("---")
+
+# ---------------- ABOUT ----------------
+st.markdown('<p class="section-title">👨‍💻 About Me</p>', unsafe_allow_html=True)
+st.write("""I'm a Lead BI & CX Analytics professional with 5+ years of experience building data-driven solutions for global enterprises, including 2 years onshore with British Gas UK, delivering strategic insights and automation through EXL Consulting.
 
 I specialize in Power BI, R, SQL, Python, Power Apps & Automate, Tableau, ML and have led 30+ BI dashboards, AI-lite solutions, and VOC/NPS reporting systems across customer care and commercial operations. My projects have enabled measurable improvements like:
 • 30% drop in complaints via diagnostic logic
@@ -65,23 +78,11 @@ I've directly partnered with UK stakeholders, managed analyst teams, and deliver
 Lead BI Analyst | Analytics Consultant | VOC/CX Analytics Lead | Senior Business Analyst | Data Science Specialist (Applied)
 
 Let’s connect if you're building the next-gen analytics function — I bring the toolkit, mindset, and track record to lead it.""")
-    st.markdown("""
-    <a href="https://drive.google.com/file/d/1j7pTlNxrvCtIhVpo0y_M2o8l7fR94eBJ/view?usp=drive_link" target="_blank"><button style='margin:5px'>📄 Download Resume</button></a>
-    <a href="mailto:rachita.harjai97@gmail.com"><button style='margin:5px'>✉️ Contact Me</button></a>
-    """, unsafe_allow_html=True)
-with col2:
-    os.path.join(BASE_DIR, "Rachita_Img.jpg")
-    st.image(os.path.join(BASE_DIR, "Rachita_Img.jpg"), width=200)
-    # st.image("https://avatars.githubusercontent.com/u/9919?s=280&v=4", width=200)
 
-st.write("---")
-
-# ---------------- ABOUT ----------------
-st.markdown('<p class="section-title">👨‍💻 About Me</p>', unsafe_allow_html=True)
-st.write("""
-I am a passionate Data Scientist with strong experience in Machine Learning, Deep Learning, and Analytics.
-I love solving business problems with data, building models that scale, and creating dashboards that tell powerful stories.
-""")
+# st.write("""
+# I am a passionate Data Scientist with strong experience in Machine Learning, Deep Learning, and Analytics.
+# I love solving business problems with data, building models that scale, and creating dashboards that tell powerful stories.
+# """)
 
 # ---------------- EXPERIENCE ----------------
 st.markdown('<p class="section-title"><h3>📌 Experience </h3> </p>', unsafe_allow_html=True)
@@ -190,5 +191,6 @@ with col1:
 # with col3:
 
 #     st.markdown("[Email](mailto:your.email@example.com)")
+
 
 
