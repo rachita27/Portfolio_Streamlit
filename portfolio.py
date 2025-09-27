@@ -45,7 +45,7 @@ st.markdown(
 
 # ---------------- HERO ----------------
 col1, col2 = st.columns([2,1])
-with col2:
+with col1:
     st.markdown('<p class="hero-title"><h1>Hi, I\'m Rachita 👋 </h1></p>', unsafe_allow_html=True)
     st.markdown('<p class="hero-subtitle"> <h3> Senior Consultant | Senior Analyst | Data Scientist </h3> </p>', unsafe_allow_html=True)
     st.write("I turn data into actionable insights and build ML-driven solutions.")
@@ -53,7 +53,7 @@ with col2:
     <a href="https://drive.google.com/file/d/1j7pTlNxrvCtIhVpo0y_M2o8l7fR94eBJ/view?usp=drive_link" target="_blank"><button style='margin:5px'>📄 Download Resume</button></a>
     <a href="mailto:rachita.harjai97@gmail.com"><button style='margin:5px'>✉️ Contact Me</button></a>
     """, unsafe_allow_html=True)
-with col1:
+with col2:
     os.path.join(BASE_DIR, "Rachita_Img.jpg")
     st.image(os.path.join(BASE_DIR, "Rachita_Img.jpg"), width=200)
     # st.image("https://avatars.githubusercontent.com/u/9919?s=280&v=4", width=200)
@@ -174,3 +174,4 @@ with col1:
 # with col3:
 
 #     st.markdown("[Email](mailto:your.email@example.com)")
+
