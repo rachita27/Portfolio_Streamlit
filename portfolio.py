@@ -13,7 +13,8 @@ st.markdown(
     """
     <style>
     .stApp {
-    background: linear-gradient(to right, #f8f9fa, #e9ecef); -- GREY
+      background: linear-gradient(to right, #d0f0e4, #ffffff); --gREEN
+    ---background: linear-gradient(to right, #f8f9fa, #e9ecef); -- GREY
    --- background: linear-gradient(120deg, #e0c3fc, #f9f9f9); 
     --background: linear-gradient(120deg, #dde1e7, #f7f8fa);
    --background: linear-gradient(to right, #d0f0e4, #ffffff); --gREEN
